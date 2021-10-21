@@ -6,6 +6,10 @@ function dropFabric() {
     document.getElementById("fabric").classList.toggle("show");
 }
 
+function dropFood() {
+    document.getElementById("food").classList.toggle("show");
+}
+
 window.addEventListener = function(event) {
     if (!event.target.matches('.dropbtn')) {
          var dropdowns = document.getElementsByClassName("dropdown-content");
