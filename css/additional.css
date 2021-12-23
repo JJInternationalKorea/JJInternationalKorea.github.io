@@ -127,3 +127,19 @@ a {
       width: 100%;
     }
   }
+  
+  .first, .prev, .next, .last, .page {
+    padding: 3px;
+    border: 1px solid grey;
+    color: black;
+    background: lightblue;
+    font-size: 15px;
+    min-width: 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15%;
+  }
+
+  .easyPaginateNav {
+    text-align: center;
+  }
