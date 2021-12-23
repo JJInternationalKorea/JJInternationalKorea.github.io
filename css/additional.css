@@ -1,0 +1,41 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel {
+    padding-top: 56px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-floating {
+    width: 2.3125rem;
+    height: 2.3125rem;
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+}
+
+.btn-floating .fab {
+    line-height: 2.3125rem;
+}
+
+.megamenu {
+    position: static
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 400px;
+}
