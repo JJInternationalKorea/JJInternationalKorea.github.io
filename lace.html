@@ -1,272 +1,620 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <title>Lace Fabric</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="Tooplate">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta property="og:image" content="./images/icon.png" />
+  <meta property="og:description"
+    content="We export garment fabrics to large brands in the United States, and we are exporting only 100% domestic fabrics." />
+  <meta property="og:url" content="JJInternationalKorea.com" />
+  <meta property="og:title" content="JJ International Korea" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/jquery.easyPaginate.js"></script>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-  <!-- MAIN CSS -->
-  <link rel="stylesheet" href="css/tooplate-style.css">
+  <link rel="stylesheet" href="./css/additional.css">
+  <link rel="stylesheet" href="./css/image-zoom.css">
 
 </head>
+
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-  <!-- PRE LOADER -->
-  <section class="preloader">
-    <div class="spinner">
-
-      <span class="spinner-rotate"></span>
-
-    </div>
-  </section>
-
-  <!-- HEADER -->
-  <header>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <div class="row">
-
-        <div class="col-md-4 col-sm-3">
-          <p>Welcome to JJ International Korea</p>
-        </div>
-
-        <div class="col-md-8 col-sm-9 text-align-right">
-          <span class="phone-icon"><i class="fa fa-phone"></i>031-928-5666</span>
-          <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="mailto:jeyjeyintl@gmail.com">jeyjeyintl@gmail.com</a></span>
-        </div>
-
-      </div>
-    </div>
-  </header>
-
-  <!-- MENU -->
-  <section class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-
-      <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-        </button>
-
-        <!-- lOGO -->
-        <a href="index.html" class="navbar-brand">JJInternationalKorea</a>
-      </div>
-
-      <!-- MENU LINKS -->
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html#top" class="smoothScroll">Home</a></li>
-          <li><a href="index.html#about" class="smoothScroll">About Us</a></li>
-          <li><a href="index.html#product" class="smoothScroll">Products</a></li>
-          <li><a href="index.html#google-map" class="smoothScroll">Contact</a></li>
-          <li>
-            <div class="dropdown">
-              <button onclick="dropProduct()" class="dropbtn">
-                Protective Items
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div id="products" class="dropdown-content">
-                <a href="protective-cloth.html">Protective Cloth</a>
-                <a href="dental-mask.html">Dental Mask</a>
-                <a href="fashion-mask.html">Fashion Mask</a>
-              </div>
-            </div>
+      <a class="navbar-brand" href="index.html">JJ International Korea</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li>
-            <div class="dropdown">
-              <button onclick="dropFabric()" class="dropbtn">
-                Textile Fabrics
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div id="fabric" class="dropdown-content">
-                <a href="woven.html">Woven Fabric</a>
-                <a href="knit.html">Knit Fabric</a>
-                <a href="#lace-fabric">Lace Fabric</a>
-                <a href="foil-print.html">Foil Print</a>
-                <a href="mesh.html">Mesh</a>
-              </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="dropdown">
-            <button onclick="dropFood()" class="dropbtn">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Protective Items
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="protective-cloth.html">Protective Full Body Wearable</a></li>
+              <li><a class="dropdown-item" href="masks.html">Masks</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Textile Fabrics
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="woven.html">Woven</a></li>
+              <li><a class="dropdown-item" href="knit.html">Knit</a></li>
+              <li><a class="dropdown-item" href="lace.html">Lace</a></li>
+              <li><a class="dropdown-item" href="foil-print.html">Foil Print</a></li>
+              <li><a class="dropdown-item" href="mesh.html">Mesh</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Food
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div id="food" class="dropdown-content">
-              <a href="bts-coffee.html">BTS Coffee</a>
-              <a href="bts-seaweed.html">BTS Dried Seaweed</a>
-            </div>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="bts-coffee.html">BTS Coffee</a></li>
+              <li><a class="dropdown-item" href="bts-seaweed.html">BTS Dried Seaweed</a></li>
+            </ul>
           </li>
         </ul>
       </div>
-
     </div>
-  </section>
+  </nav>
 
 
   <!-- PRODUCT DETAIL -->
-  <section id="lace-fabric">
-    <div class="container">
-      <div class="row">
-        <div class="products" style="text-align: center;">
-          <h2>Lace Fabric</h2>
-          <!-- Put Images here -->
-          <table id="data">
-            <tr>
-              <td>
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20590" src="./images/lace-fabric/JJ-20590.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20589" src="./images/lace-fabric/JJ-20589.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20588" src="./images/lace-fabric/JJ-20588.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20587" src="./images/lace-fabric/JJ-20587.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20586" src="./images/lace-fabric/JJ-20586.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20585" src="./images/lace-fabric/JJ-20585.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20584" src="./images/lace-fabric/JJ-20584.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20583" src="./images/lace-fabric/JJ-20583.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20582" src="./images/lace-fabric/JJ-20582.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20581" src="./images/lace-fabric/JJ-20581.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20580" src="./images/lace-fabric/JJ-20580.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20579" src="./images/lace-fabric/JJ-20579.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20578" src="./images/lace-fabric/JJ-20578.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20577" src="./images/lace-fabric/JJ-20577.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20576" src="./images/lace-fabric/JJ-20576.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20575" src="./images/lace-fabric/JJ-20575.jpg" oncontextmenu="return false;">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20574" src="./images/lace-fabric/JJ-20574.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20573" src="./images/lace-fabric/JJ-20573.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20572" src="./images/lace-fabric/JJ-20572.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20571" src="./images/lace-fabric/JJ-20571.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20570" src="./images/lace-fabric/JJ-20570.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20569" src="./images/lace-fabric/JJ-20569.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20568" src="./images/lace-fabric/JJ-20568.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20567" src="./images/lace-fabric/JJ-20567.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20566" src="./images/lace-fabric/JJ-20566.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20565" src="./images/lace-fabric/JJ-20565.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20564" src="./images/lace-fabric/JJ-20564.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20563" src="./images/lace-fabric/JJ-20563.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20562" src="./images/lace-fabric/JJ-20562.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20561" src="./images/lace-fabric/JJ-20561.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20560" src="./images/lace-fabric/JJ-20560.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20559" src="./images/lace-fabric/JJ-20559.jpg" oncontextmenu="return false;">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20558" src="./images/lace-fabric/JJ-20558.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20557" src="./images/lace-fabric/JJ-20557.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20556" src="./images/lace-fabric/JJ-20556.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20555" src="./images/lace-fabric/JJ-20555.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20554" src="./images/lace-fabric/JJ-20554.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20553" src="./images/lace-fabric/JJ-20553.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20552" src="./images/lace-fabric/JJ-20552.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20551" src="./images/lace-fabric/JJ-20551.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20550" src="./images/lace-fabric/JJ-20550.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20549" src="./images/lace-fabric/JJ-20549.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20548" src="./images/lace-fabric/JJ-20548.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20547" src="./images/lace-fabric/JJ-20547.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20546" src="./images/lace-fabric/JJ-20546.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20545" src="./images/lace-fabric/JJ-20545.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20544" src="./images/lace-fabric/JJ-20544.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20543" src="./images/lace-fabric/JJ-20543.jpg" oncontextmenu="return false;">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20542" src="./images/lace-fabric/JJ-20542.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20541" src="./images/lace-fabric/JJ-20541.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20540" src="./images/lace-fabric/JJ-20540.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20539" src="./images/lace-fabric/JJ-20539.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20538" src="./images/lace-fabric/JJ-20538.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20537" src="./images/lace-fabric/JJ-20537.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20536" src="./images/lace-fabric/JJ-20536.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20535" src="./images/lace-fabric/JJ-20535.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20534" src="./images/lace-fabric/JJ-20534.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20533" src="./images/lace-fabric/JJ-20533.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20532" src="./images/lace-fabric/JJ-20532.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-20531" src="./images/lace-fabric/JJ-20531.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19800" src="./images/lace-fabric/JJ-19800.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19799" src="./images/lace-fabric/JJ-19799.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19798" src="./images/lace-fabric/JJ-19798.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19797" src="./images/lace-fabric/JJ-19797.jpg" oncontextmenu="return false;">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19577" src="./images/lace-fabric/JJ-19577.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19576" src="./images/lace-fabric/JJ-19576.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19575" src="./images/lace-fabric/JJ-19575.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19571" src="./images/lace-fabric/JJ-19571.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19570" src="./images/lace-fabric/JJ-19570.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19569" src="./images/lace-fabric/JJ-19569.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19568" src="./images/lace-fabric/JJ-19568.jpg" oncontextmenu="return false;">
-                <img class="myImages imagelayout" id="myImg" alt="JJ-19567" src="./images/lace-fabric/JJ-19567.jpg" oncontextmenu="return false;">
-              </td>
-            </tr>
-          </table>
-          <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <div style="font-size: 32px;" id="caption"></div>
-            <img class="modal-content" id="img01">
-          </div>
-        </div>
+  <section class="py-5">
+    <div class="container py-3">
+      <div class="row text-center" id="easyPaginate">
+        <h2>Lace Fabric</h2>
+        <!-- Put Images here -->
+        <a href="./images/lace-fabric/JJ-20590.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20590" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20590" src="./images/lace-fabric/JJ-20590.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20589.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20589" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20589" src="./images/lace-fabric/JJ-20589.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20588.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20588" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20588" src="./images/lace-fabric/JJ-20588.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20587.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20587" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20587" src="./images/lace-fabric/JJ-20587.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20586.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20586" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20586" src="./images/lace-fabric/JJ-20586.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20585.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20585" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20585" src="./images/lace-fabric/JJ-20585.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20584.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20584" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20584" src="./images/lace-fabric/JJ-20584.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20583.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20583" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20583" src="./images/lace-fabric/JJ-20583.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20582.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20582" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20582" src="./images/lace-fabric/JJ-20582.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20581.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20581" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20581" src="./images/lace-fabric/JJ-20581.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20580.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20580" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20580" src="./images/lace-fabric/JJ-20580.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20579.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20579" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20579" src="./images/lace-fabric/JJ-20579.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20578.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20578" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20578" src="./images/lace-fabric/JJ-20578.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20577.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20577" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20577" src="./images/lace-fabric/JJ-20577.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20576.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20576" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20576" src="./images/lace-fabric/JJ-20576.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20575.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20575" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20575" src="./images/lace-fabric/JJ-20575.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20574.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20574" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20574" src="./images/lace-fabric/JJ-20574.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20573.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20573" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20573" src="./images/lace-fabric/JJ-20573.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20572.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20572" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20572" src="./images/lace-fabric/JJ-20572.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20571.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20571" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20571" src="./images/lace-fabric/JJ-20571.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20570.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20570" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20570" src="./images/lace-fabric/JJ-20570.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20569.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20569" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20569" src="./images/lace-fabric/JJ-20569.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20568.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20568" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20568" src="./images/lace-fabric/JJ-20568.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20567.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20567" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20567" src="./images/lace-fabric/JJ-20567.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20566.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20566" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20566" src="./images/lace-fabric/JJ-20566.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20565.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20565" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20565" src="./images/lace-fabric/JJ-20565.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20564.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20564" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20564" src="./images/lace-fabric/JJ-20564.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20563.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20563" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20563" src="./images/lace-fabric/JJ-20563.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20562.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20562" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20562" src="./images/lace-fabric/JJ-20562.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20561.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20561" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20561" src="./images/lace-fabric/JJ-20561.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20560.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20560" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20560" src="./images/lace-fabric/JJ-20560.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20559.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20559" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20559" src="./images/lace-fabric/JJ-20559.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20558.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20558" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20558" src="./images/lace-fabric/JJ-20558.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20557.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20557" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20557" src="./images/lace-fabric/JJ-20557.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20556.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20556" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20556" src="./images/lace-fabric/JJ-20556.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20555.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20555" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20555" src="./images/lace-fabric/JJ-20555.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20554.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20554" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20554" src="./images/lace-fabric/JJ-20554.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20553.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20553" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20553" src="./images/lace-fabric/JJ-20553.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20552.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20552" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20552" src="./images/lace-fabric/JJ-20552.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20551.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20551" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20551" src="./images/lace-fabric/JJ-20551.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20550.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20550" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20550" src="./images/lace-fabric/JJ-20550.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20549.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20549" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20549" src="./images/lace-fabric/JJ-20549.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20548.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20548" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20548" src="./images/lace-fabric/JJ-20548.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20547.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20547" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20547" src="./images/lace-fabric/JJ-20547.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20546.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20546" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20546" src="./images/lace-fabric/JJ-20546.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20545.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20545" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20545" src="./images/lace-fabric/JJ-20545.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20544.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20544" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20544" src="./images/lace-fabric/JJ-20544.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20543.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20543" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20543" src="./images/lace-fabric/JJ-20543.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20542.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20542" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20542" src="./images/lace-fabric/JJ-20542.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20541.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20541" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20541" src="./images/lace-fabric/JJ-20541.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20540.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20540" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20540" src="./images/lace-fabric/JJ-20540.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20539.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20539" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20539" src="./images/lace-fabric/JJ-20539.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20538.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20538" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20538" src="./images/lace-fabric/JJ-20538.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20537.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20537" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20537" src="./images/lace-fabric/JJ-20537.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20536.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20536" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20536" src="./images/lace-fabric/JJ-20536.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20535.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20535" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20535" src="./images/lace-fabric/JJ-20535.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20534.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20534" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20534" src="./images/lace-fabric/JJ-20534.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20533.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20533" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20533" src="./images/lace-fabric/JJ-20533.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20532.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20532" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20532" src="./images/lace-fabric/JJ-20532.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-20531.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-20531" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-20531" src="./images/lace-fabric/JJ-20531.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19800.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19800" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19800" src="./images/lace-fabric/JJ-19800.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19799.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19799" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19799" src="./images/lace-fabric/JJ-19799.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19798.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19798" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19798" src="./images/lace-fabric/JJ-19798.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19797.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19797" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19797" src="./images/lace-fabric/JJ-19797.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19577.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19577" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19577" src="./images/lace-fabric/JJ-19577.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19576.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19576" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19576" src="./images/lace-fabric/JJ-19576.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19575.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19575" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19575" src="./images/lace-fabric/JJ-19575.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19571.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19571" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19571" src="./images/lace-fabric/JJ-19571.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19570.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19570" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19570" src="./images/lace-fabric/JJ-19570.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19569.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19569" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19569" src="./images/lace-fabric/JJ-19569.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19568.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19568" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19568" src="./images/lace-fabric/JJ-19568.jpg">
+        </a>
+
+        <a href="./images/lace-fabric/JJ-19567.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+          data-caption="JJ-19567" class="col-md-4 col-sm-12 col-xs-12">
+          <img class="img-fluid" id="myImg" alt="JJ-19567" src="./images/lace-fabric/JJ-19567.jpg">
+        </a>
+
       </div>
     </div>
   </section>
 
 
 
+  <!-- GOOGLE MAP -->
+  <section class="py-5">
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.690049477154!2d127.0700838151588!3d37.750415121333994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc6fb2d39e261%3A0x75c945243f2711d7!2s626%20Janggok-ro%2C%20Singok-dong%2C%20Euijeongbu%2C%20Gyeonggi-do%2C%20South%20Korea!5e0!3m2!1sen!2snz!4v1594003871737!5m2!1sen!2snz"
+        width="100%" height="350" frameborder="0" style="border: 0" allowfullscreen></iframe>
+    </div>
+  </section>
+
   <!-- FOOTER -->
-  <footer data-stellar-background-ratio="5">
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <div class="footer-thumb" text-align="center">
-            <h4>Contact Info</h4>
-            <p>You can contact us by phone or email.</p>
-            <div class="contact-info">
-              <p><i class="fa fa-phone"></i>031-928-5666</p>
-              <p><i class="fa fa-envelope-o"></i> <a href="mailto:jeyjeyintl@gmail.com">jeyjeyintl@gmail.com</a></p>
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <div class="container p-4">
+      <!-- Section: Images -->
+      <section class="">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+              <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp" class="w-100" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- Section: Images -->
     </div>
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>JJ International Korea
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="protective-cloth.html" class="text-reset">Protective Full Body Wearable</a>
+            </p>
+            <p>
+              <a href="masks.html" class="text-reset">Masks</a>
+            </p>
+            <p>
+              <a href="bts-coffee.html" class="text-reset">BTS Coffee</a>
+            </p>
+            <p>
+              <a href="bts-seaweed.html" class="text-reset">BTS Dried Seaweed</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Textile Fabrics
+            </h6>
+            <p>
+              <a href="woven.html" class="text-reset">Woven</a>
+            </p>
+            <p>
+              <a href="knit.html" class="text-reset">Knit</a>
+            </p>
+            <p>
+              <a href="lace.html" class="text-reset">Lace</a>
+            </p>
+            <p>
+              <a href="foil-print.html" class="text-reset">Foil Print</a>
+            </p>
+            <p>
+              <a href="mesh.html" class="text-reset">Mesh</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> 626 Janggok-ro, Euijeongbu, Gyeonggi-do, South Korea</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              jeyjeyintl@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 031-928-5666</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="index.html">JJ International Korea</a>
+    </div>
+    <!-- Copyright -->
   </footer>
-
-
-  <!-- SCRIPTS -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/magnific-popup-options.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/smoothscroll.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="js/dropdown.js"></script>
-  <script src="js/zoom.js"></script>
-  <script src="js/pagenation.js"></script>
+  <script src="./js/easyPaginate.js"></script>
 
 </body>
+
 </html>
