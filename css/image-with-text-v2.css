@@ -1,0 +1,94 @@
+.image-zoom-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.image-zoom-container .image-zoom-thumbex {
+  padding: 7px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.image-zoom-container .image-zoom-thumbex .image-zoom-thumbnail {
+  overflow: hidden;
+  position: relative;
+  opacity: 0.88;
+  backface-visibility: hidden;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.image-zoom-container .image-zoom-thumbex .image-zoom-thumbnail img {
+  z-index: 1;
+  width: 100%;
+  backface-visibility: hidden;
+  margin: 0 auto;
+  object-fit: contain;
+  transition: all 1.5s ease;
+  height: 300px;
+}
+
+.image-zoom-container .image-zoom-thumbex .image-zoom-thumbnail p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.image-zoom-container .image-zoom-thumbex .image-zoom-thumbnail:hover img {
+  backface-visibility: hidden;
+  transform: scale(1.05);
+  opacity: 1;
+  z-index: 2;
+}
+
+.image-filter-overlay {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.image-filter-button {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 17px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  transition: all 0.5s ease;
+  bottom: 0;
+  position: absolute;
+  opacity: 0;
+  transform: translate(-50%, 0);
+  left: 50%;
+}
+
+.image-zoom-container .image-zoom-thumbex .image-zoom-thumbnail:hover .image-filter-button {
+  bottom: 20%;
+  opacity: 1;
+}
+
+/* <div class="image-zoom-container row">
+  <div class="image-zoom-thumbex col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    <div class="image-zoom-thumbnail rounded"><a href="/category/tops/5.aspx"><img src="/user/files/TOPS.png" />
+        <div class="image-filter-overlay">
+          <p>tops</p><br>
+          <div class="image-filter-button">view collection</div>
+        </div>
+      </a></div>
+  </div>
+</div> */
